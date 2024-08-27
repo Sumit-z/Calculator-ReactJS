@@ -1,0 +1,11 @@
+#display-result{
+    width: 300px;
+    height: 80px;
+    margin: 25px;
+    font-size: 2rem;
+    border-radius: 15px;
+    color: white;
+    background-color: #26282c;
+    text-align: right;
+    border: none;
+}

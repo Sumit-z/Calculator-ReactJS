@@ -1,0 +1,27 @@
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.calc-buttons{
+    width: 80px;
+    height: 70px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    background-color: #26282c;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 8px 8px 16px #26282c,
+              -8px -8px 16px #34373d;
+
+}
+.calc-buttons:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #26282c,
+              -2px -2px 5px #34373d;
+}
+.calc-buttons:active{
+    background-color: aqua;
+}
